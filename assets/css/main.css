@@ -2103,9 +2103,16 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.image img {
+		.image-dir img {
+			width: 50%;
 			border-radius: 10px;
-			display: block;
+			align-self: center;
+		}
+
+		.image img {
+			width: 50%;
+			border-radius: 10px;
+			display: inline-block;
 		}
 
 		.image.left {
